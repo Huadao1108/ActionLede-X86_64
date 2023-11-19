@@ -7,8 +7,8 @@ on:
         description: 'SSH Action'
         required: false
         default: 'false'
-  schedule:
-    - cron: 30 4 * * 1,5
+  # schedule:
+  #   - cron: 30 4 * * 1,5
 
 env: 
   # REPO_URL: 
